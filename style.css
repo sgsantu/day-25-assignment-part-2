@@ -1,0 +1,288 @@
+img {
+    max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Spartan', sans-serif;
+}
+
+span,
+p,
+a {
+    font-family: 'Spartan', sans-serif;
+}
+
+.container-custom {
+    width: 1450px;
+    margin: auto;
+}
+
+.bg-main {
+    background-color: #F9FAFB;
+}
+
+.text-comon {
+    color: #0000FF;
+    font-size: 21px;
+    margin: 18px auto;
+}
+
+.bg-comon {
+    background-color: #0000FF;
+}
+.back-comon{
+    background-color: #F6F9FC;
+}
+
+/* comon heading */
+
+.comon-text {}
+
+.comon-text h4 {}
+
+.comon-text h1 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.comon-text .bule-line {
+    background-color: #0000FA;
+    height: 3.5px;
+    width: 100px;
+}
+
+.comon-text .red-line {
+    background-color: #fff;
+    height: 3.5px;
+    width: 100px;
+}
+.comon-text p{
+    color: #606060;
+    font-size: 19px;
+    padding: 25px 0px;
+}
+
+/* comon heading  end*/
+
+/************************** header start **************************/
+
+.navbar-custom {
+    padding: 0px !important;
+    background-color: #E7E6E6 !important;
+}
+
+.navbar-custom ul {}
+
+.navbar-custom ul li {}
+
+.navbar-custom ul li a {
+    color: black !important;
+    text-transform: capitalize;
+    position: relative;
+    padding: 19px 0px;
+}
+
+.navbar-custom ul li a::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 5%;
+    height: 3px;
+    width: 0%;
+    transition: .4s;
+    background-color: #0000FF;
+}
+
+.navbar-custom ul li a:hover::after {
+    width: 90%;
+}
+
+.navbar-custom ul li a span {}
+
+.navbar-custom ul li a span i {
+    font-size: 9px;
+}
+
+.heder-right-box {}
+
+.header-serch span i {
+    font-size: 20px;
+    padding: 0px 15px;
+    border-right: 2px solid black;
+}
+
+/* dropdown start */
+
+.navbar-custom ul li {
+    position: relative;
+}
+
+.navbar-custom ul li ul {
+    position: absolute;
+    top: 150%;
+    left: 0px;
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+    padding-left: 0px;
+    text-align: center;
+    background-color: #0000FF;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    width: 150px;
+    border: 10px solid #fff;
+    color: #fff;
+    font-size: 20px;
+}
+
+.navbar-custom ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+    top: 124%;
+}
+
+.navbar-custom ul li ul li {
+    list-style: none;
+    padding: 15px 20px;
+}
+
+/* dropdown end */
+
+.btn-danger {
+    background-color: #fff !important;
+    color: #0000FF !important;
+    padding: 10px 16px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    border-radius: 50px;
+}
+
+.btn-danger::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 00%;
+    background-color: #7869F9;
+    z-index: -1;
+    opacity: 0;
+    visibility: hidden;
+    transition: .5s;
+    border-radius: 5px;
+    border-radius: 50px;
+}
+
+.btn-danger:hover::after {
+    opacity: 1;
+    width: 100%;
+    visibility: visible;
+    color: #fff !important;
+}
+
+/************************** header end **************************/
+
+/************************** slider start **************************/
+
+.slider {
+    background-color: #EDF6FF;
+}
+
+.slider-content {
+    height: 550px;
+}
+
+.slider .container-custom .slider-content {}
+
+.slider .container-custom .slider-content span {}
+
+.slider .container-custom .slider-content span h1 {}
+
+.slider .container-custom .slider-content span p {
+    color: #606060;
+}
+
+.slider-content {}
+
+.slider-image-section {
+    position: relative;
+}
+
+.slider-image-section img {
+    height: 600px;
+    width: 600px;
+    border-radius: 50%;
+    position: absolute;
+    top: -133px;
+    right: -65px;
+}
+
+.cardessss {}
+
+.card-cus {}
+
+.card-cus h1 {
+    font-size: 30px;
+}
+
+.card-cus .c-card-sp {}
+
+.card-cus .c-card-sp i::after {
+    content: "";
+    bottom: -10px;
+    left: 0;
+    height: 5px;
+    width: 50px;
+    background-color: #0000FF;
+    position: absolute;
+    transition: .5s;
+}
+
+.card-cus .c-card-sp i:hover::after {
+    width: 70px;
+}
+
+.card-cus .c-card-sp i {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    text-align: center;
+    background-color: #0000FF;
+    font-size: 40px;
+    display: inline-block;
+    color: #fff;
+    border-radius: 50px 50px 50px 0px;
+    margin-bottom: 30px;
+}
+
+.card-cus p {
+    color: #606060;
+}
+
+/* video-plalay */
+
+.video-plalay {
+    background: linear-gradient(#000033cb, #00003dce), url(./video-bg.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 200px 0px;
+    color: #fff;
+}
+
+.vid-play-txts {}
+
+.vid-play-txts .play-animatation-icon {}
+
+
+/* <!-- Our pricing plan start --> */
+.our-pricing-plan{}
+.card-custom-class{
+    padding: 38px 90px;
+}
+
+/* <!-- Our pricing plan end --> */
